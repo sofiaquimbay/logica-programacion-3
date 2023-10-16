@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #aed8de;
+    background-color: #bbf5c3;
     font-family: Tahoma;
 }
 
@@ -11,29 +11,38 @@ body{
 
 h1{
     margin-bottom: 15px;
-    color: #181f1f;
+    color: #63095a;
     
 }
 .subtitulo{
     margin-bottom: 10px;
 }
 button{
-    background-color: #333c40;
+    background-color: #0c3d14;
     color: white;
-    padding: 5px 10px;
+    padding: 8px 20px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    transition: 1s;
+}
+
+
+button:hover{
+    transform: scale(1.16);
 }
 
 input{
-    background-color: #7b99a0;
+    background-color: #5c8d5f;
     border: none;
     border-radius: 5px;
     padding: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    height: 20px;
+    width: 200px;
 }
 
 .resultado{
     font-weight: bold;
+    color:rgb(55, 5, 57);
 }
