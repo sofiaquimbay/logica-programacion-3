@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #aed8de;
+    font-family: Tahoma;
+}
+
+body{
+    margin: 20px;
+}
+
+h1{
+    margin-bottom: 15px;
+    color: #181f1f;
+    
+}
+.subtitulo{
+    margin-bottom: 10px;
+}
+button{
+    background-color: #333c40;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+input{
+    background-color: #7b99a0;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.resultado{
+    font-weight: bold;
+}
